@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <title>razorpay</title>
+  </head>
+  <body>
+    <form action="/success" method="POST">
+    <script
+        src="https://checkout.razorpay.com/v1/checkout.js"
+        data-key="rzp_test_x4zIGgzu2lMWdp" // Enter the Key ID generated from the Dashboard
+        data-amount="29935" // INR 235
+        data-buttontext="Pay with Razorpay"
+        data-name="Ashis.com"
+        data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
+        data-image=""
+        data-prefill.name="Ashis Kumar"
+        data-prefill.email="ashis.jena96@gmail.com"
+        data-theme.color="#F37254"
+    ></script>
+    <input type="hidden" custom="Hidden Element" name="hidden">
+    </form>
+
+  </body>
+</html>
